@@ -1,0 +1,407 @@
+
+/*General CSS for all pages*/
+
+html
+{
+	background:#8DE39D !important;
+	font-family: Calibri, sans-serif;
+}
+
+body
+{
+	background:#8DE39D !important;
+}
+ 
+ h1
+ {
+	 font-size: 3em;
+	 text-align: center;
+	 color:#ce2b37;
+ }
+ 
+ h2
+ {
+	 color:#ce2b37;
+	 font-size: 2em;
+ }
+ 
+ h3
+ {
+ 	font-size: 1.3em;
+ }
+
+/*end general styling*/
+
+ /*Header*/
+ 
+#mainHeader
+{
+	display:inline-flex;
+	width:100%;
+}
+
+#heading
+{
+	float:left;
+	width:40%;
+	font-family: Georgia, serif;
+}
+
+#tagline
+{
+	 color:#ce2b37;
+}
+
+#three
+{
+	color:#ce2b37;
+	font-size:1.2em;
+	font-weight:bold;
+}
+
+#headLinks
+{
+	width:45%;
+}
+
+#headLinkList
+{
+	margin-top:50px;
+	float:center;
+	list-style-type:none;
+	width:100%;
+}
+
+ul#headLinkList li
+{
+	float:left;
+	margin:4px;
+	font-weight:bold;
+	font-size:1.5em;
+	border: 3px solid #009246;
+	border-radius:15px;
+}
+
+.headingList
+{
+	text-decoration:none;
+}
+
+a.headingList:hover
+{
+	background-color:#009246;
+}
+
+#logoDiv
+{
+	width:10%;
+}
+
+#logo
+{
+	float:right;
+	width:100%;
+	margin-right:5%;
+	margin-top:25px;
+}
+
+/*end header styling*/
+
+/*Index*/
+
+#homeMain
+{
+	margin-top:50px;
+	width:100%;
+	/*border:solid 1px blue;*/
+}
+
+.homeColumns
+{
+	display:inline-block;
+	width:30%;
+	margin-left:1%;
+	margin-right:1%;
+	/*border:solid 1px red;*/
+	vertical-align:top;
+}
+
+#mainThreeHome
+{
+	width:100%;
+	/*border:solid 1px purple;*/
+}
+
+#columnTwo
+{
+
+}
+
+.slidesHome
+{
+ 	display:none;
+ 	width:90%;
+ 	left-margin:5%;
+}
+
+
+#columnThree
+{
+	text-decoration:none !important;
+}
+
+#contestBox
+{
+	display:inline-block;
+	font-size:1.5em;
+	width:90%;
+	border:solid 5px #ce2b37;
+	border-radius:10px;
+	margin-top:20px;
+}
+
+#redMoneyHome
+{
+	display:inline-block;
+	width:30%;
+	float:right;
+}
+
+#homeContestLink
+{
+	display:inline-block;
+	font-size:2em;
+	text-decoration:none !important; 
+}
+
+
+#bottomHomeDiv
+{
+	margin-top:100px;
+	width:100%;
+	font-size:1.4em;
+}
+
+
+
+
+
+/*Footer*/
+
+#foot
+{
+	width:100%;
+	margin-bottom:10px;
+	margin-top:300px;
+}
+
+#footLinksDiv
+{
+	width:75%;
+}
+
+#footList
+{
+	list-style-type:none;
+}
+
+ul#footList li
+{
+	float:left;
+	margin:7px;
+}
+
+.footerList
+{
+	text-decoration:none;
+}
+
+#copyright
+{
+	float:right;
+	width:25%;
+	font-size:.75em;
+}
+
+/*End footer styling*/
+
+/*Locations*/
+
+.locationsTR
+{
+	border:none;
+}
+
+.locationsTD
+{
+	border:none;
+}
+
+/*Menu*/
+
+#menuHead
+{
+	height:2%;
+	width:100%;
+}
+
+.headPics
+{
+	width:15%;
+	margin-left:2%;
+	margin-right:2%;
+	height:100%;
+}
+
+
+/*Ajax Menu Styling*/
+
+#changeType
+{
+	margin-top:2%;
+}
+
+#menuTable
+{
+	font-family: Calibri, sans-serif;
+	font-size: 1.3em;
+	width:80%;
+}
+
+#menuImages
+{
+	width:80%;
+	margin:auto;
+}
+
+.menuPageItems
+{
+	width:15%;
+}
+
+
+/*Gift Card Styling*/
+
+#main {
+    float: left;
+    width: 30%;
+}
+
+#aside {
+    float: right;
+    width: 70%;
+    display: none;
+}
+
+#giftCardFieldset {
+    border: none;
+}
+
+#plastic {
+    display: none;
+}
+
+#ecard {
+    display: none;
+}
+
+#thanks_msg {
+    float: right;
+    width: 70%;
+    display: none;
+}
+
+/*Contests Page styling*/
+
+.contestTR
+{
+	background:#8DE39D;
+	border:none;
+}
+
+.greenM, .redM
+{
+	width:80%;
+}
+
+.contestTD
+{
+	width:12%;
+	padding-right:4%;
+	padding-left:4%;
+	background:#8DE39D;
+	border:none;
+}
+
+#win
+{
+	font-weight:bold;
+	font-size:2em;
+	color:#ce2b37;
+}
+
+/*end contest page styling*/
+/*careers styling*/
+
+/*main styling*/
+.nav
+{
+	margin-bottom: 15px;
+	text-decoration:none;
+}
+#nav li{
+	display:inline;
+	list-style:none;
+	border:1px solid black;
+	padding:5px 15px;
+    background: #ce2b37;
+    border-radius:10px;
+}
+#nav a {
+	text-decoration: none;
+    color: black;
+}
+
+#table
+{
+
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid white;
+    text-align: left;
+    padding: 8px;
+}
+
+.careersTR:nth-child(even) {
+    background-color: white;
+}
+
+
+
+/*Specials*/
+
+.specialsDivider
+{
+	width:100%;
+	border:solid 1px yellow;
+}
+
+.specialsDiv
+{
+	border:solid 1px purple;
+	display:inline-block;
+	vertical-align:top;
+	width:45%;
+	margin-left:2%;
+	margin-right:2%;
+}
+
+/*Contact Us*/
+
+.feedback
+{
+	text-align:center;
+}
